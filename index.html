@@ -1,1 +1,54 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Byron Castro</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper  cyan accent-4">
+                <a href="#" class="brand-logo">Byron Castro</a>
+                <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                </ul> -->
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/parallax1.jpg"></div>
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Ingeniero en Sistemas</h2>
+                <p class="grey-text text-darken-3 lighten-3">Hola que tal mi nombre, es <b>Byron Ismael Castro Gutiérrez,</b> soy del departamento y municipio de Totonicapán.</p>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/parallax2.jpg"></div>
+        </div>
+    </main>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // $("#activar-nav").sideNav({
+        //     //menuWidth: 300, // Default is 240
+        //     edge: 'right', // Choose the horizontal origin
+        //     closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        //     draggable: true // Choose whether you can drag to open on touch screens
+        // });
+        // $('#activar-slidenav').sideNav();
+        $('.parallax').parallax();
+    });
+    </script>
+</body>
+</html>
